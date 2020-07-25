@@ -39,6 +39,7 @@ maybe it seems to be normal to see  file extensions like (.doc, .txt, .pdf ,etc)
 ### #2 How many non-root/non-service/non-daemon users are there? 
 by executing 
 > cat /etc/passwd 
+
 [#2i](/imgs/#2.PNG)
 will print all the user and you can find out  by looking for user with login 
 the users with nologin are the (root, services, daemon) users 
@@ -46,11 +47,13 @@ the users with nologin are the (root, services, daemon) users
 ### #3 	What user is this app running as?
 this one is a straight foreword  by executing
 > whoami
+
 [#3i](/imgs/#3.PNG)
 the username will be printed 
 ### #4  What is the user's shell set as?
 the answer of this question will be printed with question 2 with the command 
 >cat /etc/passwd
+
 [#4i](/imgs/#2.PNG)
 ### #5 What version of Ubuntu is running?
 I tried the suggested command 
@@ -58,12 +61,13 @@ I tried the suggested command
 [#5.1](/imgs/#5.1.PNG)
 but it doesn't show the version of Ubuntu so i used 
 >  lsb_release -a
+
 [#5.2](/imgs/#5.2.PNG)
 ### #6 print out the MOTD. what favorite beverage is shown?
 the MOTD stands for message of the day can be configured in the /etc directory but we want to print we have 13 message but the hint pointing to  00-header so let print it 
 >cat /etc/update-motd.d/00-header 
 in the end of the file the mention a type of drink 
-[#6i](/imgs/#6.PNG)
+[#6i](./imgs/#6.PNG)
 
 thanks 
 

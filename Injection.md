@@ -32,7 +32,7 @@ so now i will try yo inject it with a username and  command "root;ls"
 
 the message was success but with no output of the command this could indicate for a blind injection or the server is not vulnerable to command injection let's try in the recommended page < machine IP >/evilshell.php, this page ask the user to enter an command so let's try ls again without the username 
 
-![#1i](imgs/#1.PNG)
+![#1](imgs/#1.PNG)
 
 
 the output of the command will appear under the **"submit"** button so now we can start here 
@@ -52,7 +52,7 @@ we start by showing the files by
 
 maybe it seems to be normal to see  file extensions like (.doc, .txt, .pdf ,etc) on your PC but it is odd to see it in a web page, web page could have (css , .php extension , .js extension) 
 
-![#1i](imgs/#1.PNG)
+![#1](imgs/#1.PNG)
 
 
 ### #2 How many non-root/non-service/non-daemon users are there? 

@@ -32,7 +32,7 @@ so now i will try yo inject it with a username and  command "root;ls"
 
 the message was success but with no output of the command this could indicate for a blind injection or the server is not vulnerable to command injection let's try in the recommended page < machine IP >/evilshell.php, this page ask the user to enter an command so let's try ls again without the username 
 
-![#1](imgs/#1.PNG)
+![#1](imgs/1.PNG)
 
 
 the output of the command will appear under the **"submit"** button so now we can start here 
@@ -98,6 +98,7 @@ the MOTD stands for message of the day can be configured in the /etc directory b
 >cat /etc/update-motd.d/00-header 
 
 in the end of the file the mention a type of drink 
+
 ![#6i](imgs/6.PNG)
 
 

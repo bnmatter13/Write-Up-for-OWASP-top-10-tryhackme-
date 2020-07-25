@@ -52,14 +52,14 @@ we start by showing the files by
 
 maybe it seems to be normal to see  file extensions like (.doc, .txt, .pdf ,etc) on your PC but it is odd to see it in a web page, web page could have (css , .php extension , .js extension) 
 
-![#1](imgs/#1.PNG)
+![#1](imgs/1.PNG)
 
 
 ### #2 How many non-root/non-service/non-daemon users are there? 
 by executing 
 > cat /etc/passwd 
 
-![#2i](imgs/#2.PNG)
+![#2i](imgs/2.PNG)
 
 
 will print all the user and you can find out  by looking for user with login 
@@ -69,7 +69,7 @@ the users with nologin are the (root, services, daemon) users
 this one is a straight foreword  by executing
 > whoami
 
-![#3i](imgs/#3.PNG)
+![#3i](imgs/3.PNG)
 
 
 the username will be printed 
@@ -77,20 +77,20 @@ the username will be printed
 the answer of this question will be printed with question 2 with the command 
 >cat /etc/passwd
 
-![#4i](imgs/#2.PNG)
+![#4i](imgs/2.PNG)
 
 
 ### #5 What version of Ubuntu is running?
 I tried the suggested command 
 >uname -a 
 
-![#5.1](imgs/#5.1.PNG)
+![#5.1](imgs/5.1.PNG)
 
 
 but it doesn't show the version of Ubuntu so i used 
 >  lsb_release -a
 
-![#5.2](imgs/#5.2.PNG)
+![#5.2](imgs/5.2.PNG)
 
 
 ### #6 print out the MOTD. what favorite beverage is shown?
@@ -98,7 +98,7 @@ the MOTD stands for message of the day can be configured in the /etc directory b
 >cat /etc/update-motd.d/00-header 
 
 in the end of the file the mention a type of drink 
-![#6i](imgs/#6.PNG)
+![#6i](imgs/6.PNG)
 
 
 thanks 
